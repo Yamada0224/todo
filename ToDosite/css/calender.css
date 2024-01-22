@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+  #calendar {
+    font-family: 'Arial', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+  }
+  #calendar th,
+  #calendar td {
+    padding: 23px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  #calendar th {
+    background-color: #f3f3f3;
+    color: #333;
+  }
+  #calendar .weekend {
+    background-color: #e6e6e6;
+  }
+  
+  /* ここに任意のスタイルを追加 */
+  
+  /* 重要度ごとのしるしのスタイル */
+  .importance-low { background-color: #b3e0ff; } /* 低 */
+  .importance-medium { background-color: #66ccff; } /* 中 */
+  .importance-high { background-color: #3399ff; } /* 高 */
+  
